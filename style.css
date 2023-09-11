@@ -26,10 +26,15 @@ li {
 
 body {
     height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+header,
+main,
+section {
     max-width: 1110px;
     margin: 0 auto;
     padding: 0 10px;
-    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -62,6 +67,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: #00001A;
 }
 
 nav img {
@@ -79,7 +85,7 @@ main .container {
 }
 
 main .left {
-    width: 730px;
+
     display: grid;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -253,7 +259,7 @@ section .container .items3 p {
     }
 
     main .container .right {
-        width: 343px;
+        width: 100%;
     }
 
     section .container {
