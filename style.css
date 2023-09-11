@@ -60,6 +60,10 @@ nav ul li {
     line-height: 26px;
 }
 
+nav ul li a {
+    text-decoration: none;
+}
+
 nav img {
     display: none;
 }
